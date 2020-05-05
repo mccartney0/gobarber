@@ -2,10 +2,11 @@ import multer from 'multer';
 import { resolve } from 'path';
 import { randomBytes } from 'crypto';
 
-const uploadFolder = resolve(__dirname, '..', '..', 'tmp', 'uploads');
+const tmpFolder = resolve(__dirname, '..', '..', 'tmp');
 
 export default {
-	directory: uploadFolder,
+	tmpFolder,
+	uploadFolder: resolve(tmpFolder, 'uploads'),
 
 	storage: multer.diskStorage({
 		destination: uploadFolder,
