@@ -48,6 +48,9 @@ export const Container = styled.div<ContainerProps>`
     border: 0;
     color: #f4ede8;
 
+    -webkit-transition-delay: 99999s;
+    -webkit-text-fill-color: #f4ede8;
+
     &::placeholder {
       color: #666360;
     }
