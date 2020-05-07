@@ -41,6 +41,10 @@
 # :rocket: About
 This project was developed along with the Rocketseat's Bootcamp GoStack. It was designed to barbers shop provide their services and let their customers schedule the date online.
 
+- <a href="https://github.com/caiotracera/gobarber/issues/1">Server - To Do's</a>.
+- <a href="https://github.com/caiotracera/gobarber/issues/2">Frontend - To Do's</a>.
+- <a href="https://github.com/caiotracera/gobarber/issues/3">Mobile - To Do's</a>.
+
 # :computer: Technologies
 The backend and both frontend and mobile was developed using Typescript as default.
 
