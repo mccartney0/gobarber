@@ -30,11 +30,11 @@ describe('SendForgotPasswordEmail', () => {
 			password: '123456',
 		});
 
-		await sendForgotPasswordEmail.execute({
-			email: 'john.doe@example.com',
-		});
-
 		const sendMail = jest.spyOn(fakeMailProvider, 'sendMail');
+
+		await sendForgotPasswordEmail.execute({
+			email: 'johndoe@example.com',
+		});
 
 		expect(sendMail).toHaveBeenCalled();
 	});
@@ -56,7 +56,7 @@ describe('SendForgotPasswordEmail', () => {
 		});
 
 		await sendForgotPasswordEmail.execute({
-			email: 'john.doe@example.com',
+			email: 'johndoe@example.com',
 		});
 
 		expect(generateToken).toHaveBeenCalledWith(user.id);
