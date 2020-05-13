@@ -46,9 +46,12 @@ This project was developed along with the Rocketseat's Bootcamp GoStack. It was 
 - <a href="https://github.com/caiotracera/gobarber/issues/3">Mobile - To Do's</a>.
 
 # :computer: Technologies
-The backend and both frontend and mobile was developed using Typescript as default.
+The backend and both frontend and mobile was developed using Typescript as default.<br />
+<small>Click the summary to open the techs used in each part.</small>
 
-* NodeJS
+<details>
+  <summary>NodeJS</summary>
+  
   * bcryptjs
   * cors
   * date-fns
@@ -62,11 +65,17 @@ The backend and both frontend and mobile was developed using Typescript as defau
   * typeorm
   * uuidv4
   * ESLint with Prettier (using <a href="https://github.com/airbnb/javascript">Airbnb's Style Guide</a>) and EditorConfig.
+</details>
 
-* Docker
+<details>
+  <summary>Docker</summary>
+
   * Postgres
+</details>
   
-* React
+<details>
+  <summary>React</summary>
+
   * axios
   * polished
   * react-icons
@@ -78,8 +87,11 @@ The backend and both frontend and mobile was developed using Typescript as defau
   * yup
   * jest
   * ESLint with Prettier (using <a href="https://github.com/airbnb/javascript">Airbnb's Style Guide</a>) and EditorConfig.
+</details>
 
-* React Native
+<details>
+  <summary>React Native</summary>
+
   * async-storage
   * axios
   * masked-view
@@ -94,6 +106,7 @@ The backend and both frontend and mobile was developed using Typescript as defau
   * yup
   * jest
   * ESLint with Prettier (using <a href="https://github.com/airbnb/javascript">Airbnb's Style Guide</a>) and EditorConfig.
+</details>
 
 # :thinking: How to use
 To run the project locally in your machine you'll need to have installed <a href="https://git-scm.com/">Git</a>, <a href="https://nodejs.org/en/">NodeJS</a> 12.16.3 or later, <a href="https://www.docker.com/">Docker</a> and a simulator for Android (I recommend <a href="https://developer.android.com/studio">Android Studio</a>) or iPhone. In addition, you'll need to have some knowledge to run a docker container and configure the project.
