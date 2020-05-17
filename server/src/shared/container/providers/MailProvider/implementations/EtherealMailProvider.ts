@@ -17,8 +17,8 @@ export default class EtherealMailProvider implements IMailProvider {
 			host: 'smtp.ethereal.email',
 			port: 587,
 			auth: {
-				user: 'porter39@ethereal.email',
-				pass: 'eV8CwdttM69pMZqc8q',
+				user: process.env.MAIL_USER,
+				pass: process.env.MAIL_PASS,
 			},
 		});
 		this.client = transporter;
