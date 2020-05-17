@@ -11,9 +11,11 @@
     "test": "jest"
   },
   "dependencies": {
+    "@types/hapi__joi": "^17.1.0",
     "@typescript-eslint/eslint-plugin": "^2.27.0",
     "@typescript-eslint/parser": "^2.27.0",
     "bcryptjs": "^2.4.3",
+    "celebrate": "^12.1.1",
     "cors": "^2.8.5",
     "date-fns": "^2.12.0",
     "eslint-config-airbnb-base": "^14.1.0",
