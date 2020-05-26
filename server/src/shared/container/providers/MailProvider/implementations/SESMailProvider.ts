@@ -3,7 +3,7 @@ import nodemailer, { Transporter } from 'nodemailer';
 import mailConfig from '@config/mail';
 import aws from 'aws-sdk';
 
-import IMailTemplateProvider from '@shared/container/providers/MailTemplateProvider/models/IMailTemplateProdiver';
+import IMailTemplateProvider from '@shared/container/providers/MailTemplateProvider/models/IMailTemplateProvider';
 import IMailProvider from '../models/IMailProvider';
 import ISendMailDTO from '../dtos/ISendMailDTO';
 
