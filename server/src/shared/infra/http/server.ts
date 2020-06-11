@@ -31,7 +31,6 @@ app.use((error: Error, req: Request, res: Response, _: NextFunction) => {
 		});
 	}
 
-	console.log(error);
 
 	return res
 		.status(500)
