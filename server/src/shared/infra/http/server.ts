@@ -16,9 +16,9 @@ import '@shared/container';
 
 const app = express();
 
-app.use(rateLimiter);
 app.use(cors());
 app.use(express.json());
+app.use(rateLimiter);
 app.use('/files', express.static(uploadConfig.uploadsFolder));
 app.use(routes);
 app.use(errors());
@@ -30,7 +30,6 @@ app.use((error: Error, req: Request, res: Response, _: NextFunction) => {
 			message: error.message,
 		});
 	}
-
 
 	return res
 		.status(500)
